@@ -12,4 +12,20 @@ Other than speed so might one measure efficiency by taking memory consumption an
 
 ## 1.1-3
 
+A data structure that you might have seen previously is the the singly linked list, below is a discussion about its strengths and limitations.
 
+Strengths:
+
+- Insertion of a new element is a fast constant time operation
+
+- Deletion of an existing element is a fast constant time operation
+
+- Number of elements can be changed up and down dynamically at run time
+
+Weaknesses:
+
+- The pointer to the next element in the linked list takes up memory
+
+- Random access is slow compared to storing the data in an array
+
+- No guarantee that the elements are located close in memory which can have a negative effect on caching performance
