@@ -20,7 +20,7 @@ Strengths:
 
 - Deletion of an existing element is a fast constant time operation
 
-- Number of elements can be changed up and down dynamically at run time
+- Number of elements can be changed dynamically at run time
 
 Weaknesses:
 
