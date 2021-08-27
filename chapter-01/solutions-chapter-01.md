@@ -29,3 +29,7 @@ Weaknesses:
 - Random access is slow compared to storing the data in an array
 
 - No guarantee that the elements are located close in memory which can have a negative effect on caching performance
+
+## 1.1-4
+
+The shortest-path and traveling-salesman problems are similar due to that the goal of both problems is to minimize the length of a path. They are different due to that only two stops are required in the first problem and a stop will only be visited once, in the second problem so are all stops required and a stop might be passed by more than one time.
