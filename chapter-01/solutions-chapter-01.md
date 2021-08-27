@@ -39,3 +39,7 @@ The shortest-path and traveling-salesman problems are similar due to that the go
 A real world problem in which only the best solution will do is sorting words into a dictionary. A word not placed in the correct alphabetical order will make it time consuming to find the word and its explanation.
 
 A real world problem in which a solution that is "approximately" the best is good enough is weather forecasts. A forecast is always just approximately right but still adds value to the user that want to choose what clothes to pack when for example traveling away over a weekend.
+
+## 1.2-1
+
+An example of an application that requires alghoritmitic content is in the field of cryptography. Take for example a cryptographic hash functions that is used to verify the integrity of messages and files. A file that have been tampered with during transfer can be detected by checking if the result of tha algorithm that calculates the hash digest over the message is different than the known expected value.
