@@ -33,3 +33,9 @@ Weaknesses:
 ## 1.1-4
 
 The shortest-path and traveling-salesman problems are similar due to that the goal of both problems is to minimize the length of a path. They are different due to that only two stops are required in the first problem and a stop will only be visited once, in the second problem so are all stops required and a stop might be passed by more than one time.
+
+## 1.1-5
+
+A real world problem in which only the best solution will do is sorting words into a dictionary. A word not placed in the correct alphabetical order will make it time consuming to find the word and its explanation.
+
+A real world problem in which a solution that is "approximately" the best is good enough is weather forecasts. A forecast is always just approximately right but still adds value to the user that want to choose what clothes to pack when for example traveling away over a weekend.
