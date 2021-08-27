@@ -1,4 +1,4 @@
-# Chapter 1 Exercise Solutions
+# Exercise Solutions Chapter 1
 
 ## 1.1-1
 
