@@ -38,7 +38,7 @@ The shortest-path and traveling-salesman problems are similar due to that the go
 
 A real world problem in which only the best solution will do is sorting words into a dictionary. A word not placed in the correct alphabetical order will make it time consuming to find the word and its explanation.
 
-A real world problem in which a solution that is "approximately" the best is good enough is weather forecasts. A forecast is always just approximately right but still adds value to the user that want to choose what clothes to pack when for example traveling away over a weekend.
+A real world problem in which a solution that is "approximately" the best is good enough is weather forecasts. These are just approximately right but still adds value. A forcaset will for example be helpful when to choose what clothes to pack when traveling away over a weekend.
 
 ## 1.2-1
 
