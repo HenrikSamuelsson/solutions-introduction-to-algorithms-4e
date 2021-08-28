@@ -42,4 +42,48 @@ A real world problem in which a solution that is "approximately" the best is goo
 
 ## 1.2-1
 
-An example of an application that requires alghoritmitic content is in the field of cryptography. Take for example a cryptographic hash functions that is used to verify the integrity of messages and files. A file that have been tampered with during transfer can be detected by checking if the result of tha algorithm that calculates the hash digest over the message is different than the known expected value.
+An example of an application that requires alghoritmitic content is cryptography. Take for example a cryptographic hash functions that is used to verify the integrity of messages and files. To check that a file have not been tampered with during transfer so can the hash algorithm be applied with the file as input to produce the hash digest and then check that this result is the expected.
+
+## 1.2-2
+
+Lets compare implementations of insertion sort and merge sort on the same machine. For inputs of size n, insertion runs in 8n&#x00B2; steps, while merge sort runs in 64n lg n steps. The goal is to check for which values of n that insertion sort beat merge sort.
+
+Start with the minimal value n = 2. Then for insertion sort we get 32 and for merge sort we get about 38. So insertion sort is better for small values.
+
+To find the n where merge sort starts to outperform insertion sort we need to solve the equation:
+
+8n&#x00B2; < 64n lg n
+
+Divide both sides by 8n to get:
+
+n < 8 lg n
+
+Divide by 8 to get:
+
+n / 8 < lg n
+
+It now turns out that elementary math will not be enough to solve the equation. Since we got stuck lets change strategy and instead start testing different values.
+
+To get an initial estimate fast we try with doubling n every time and then we get:
+
+n = 4 &#x21D2; 4 / 8 < lg 4 &#x21D2; 0.5 < 2
+
+n = 8 &#x21D2; 8 / 8 < lg 8 &#x21D2; 1 < 3
+
+n = 16 &#x21D2; 16 / 8 < lg 16 &#x21D2; 2 < 4
+
+n = 32 &#x21D2; 32 / 8 < lg 32 &#x21D2; 4 < 5
+
+n = 64 &#x21D2; 64 / 8 < lg 16 &#x21D2; 8 < 6
+
+We can now deduce that insertion sort wins for n = 32 but is slower for n = 64. To find the exact limit we can use a calculator to test values in between 32 and 64. This is fast enough to brute force on the calculator since maximum 30 values needs to be tested.
+
+Note that you can also speed up the process using a binary search by starting in the middle of the 32 to 64 interval and test 48 first and then proceed from there with the next middle point in a new smaller interval.
+
+After having used the calculator to narrow down the range so will we eventually find that:
+
+n = 43 &#x21D2; 43 / 8 < lg 43 &#x21D2; 5.375 < 5.426
+
+n = 44 &#x21D2; 44 / 8 < lg 43 &#x21D2; 5.500 < 5.459
+
+This means that we have the solution. For n from 2 up to 43 so will insertion sort be faster but when n is 44 and above so will merge sort perform better.
