@@ -2,13 +2,13 @@
 
 ## 2.1-1
 
-The below figure illustrates the operations of insertion sort on the array A = [31, 41, 59, 26, 41, 58].
+The below figure illustrates the operations of insertion sort on the array A = [31, 41, 59, 26, 41, 58]. A detailed explanation follows after the figure.
 
 ![insertion sort illustration](exercise-ch02-sec01-1.png)
 
 The boxes illustrates elements in the array with the content inside the box and the index placed above the box. The sorting is done in six principal steps marked with (a) to (f), with (a) showing the initial ordering and (f) the final sorted array.
 
-In insertion sort so is each element handled one by one, except the first element that do not need to be handled becaus it will end up at the correct place automatically.
+In insertion sort so is each element handled one by one, except the first element that do not need to be handled because it will end up at the correct place automatically.
 
 The element that is currently actively worked on being inserted is marked in black.
 
