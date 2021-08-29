@@ -4,4 +4,4 @@ Solutions to exercises and problems from the book Introduction to Algorithms, th
 
 ## Solutions
 
-[Exencises Chapter 1](chapter-01/solutions-chapter-01.md)
+[Exencises Chapter 1](chapter-01/solutions-exercises-chapter-01.md)
