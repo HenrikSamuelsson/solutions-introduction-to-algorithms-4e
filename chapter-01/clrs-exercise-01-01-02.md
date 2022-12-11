@@ -1,5 +1,5 @@
 # Solution Exercise 1.1-2
 
-Space is a measure of efficiency, other than speed, that need to be considered in the real world. What is meant by space depends on the environment.
+Space is a measure of efficiency, other than speed, that need to be considered in the real world. What is meant by space depends on the environment. In a library environment the sorting of books will depend on the available shelves that will impose limits on the sorting algorithm. Most books will fit the ordinary shelves but an exception is made for physically large books that are place on separate special shelves with extra height. Speed in sorting and finding the large books is sacrificed to be able reduce the total floor area needed for shelves in the library.
 
-In a library the sorting of books will depend on the available shelves that will impose limits on the sorting algorithm. Most books will fit the ordinary shelves but an exception is made for physically large books that are place on separate special shelves. Speed in sorting and locating the large books is sacrificed to be able reduce the total area needed for shelves in the library.
+Another measure of efficiency is compliance to standards that enables parts as a whole to work together. Transports can at first glance seemingly be made more efficient by simply making the vehicles larger so more cargo can be fitted inside. But making the vehicle larger will affect the routes it can take. If for example making a ship to large so will it not be able to pass through the Suez Canal and instead be forced detour around Africa.
