@@ -4,4 +4,4 @@ Solutions to exercises and problems from the book Introduction to Algorithms, th
 
 ## Solutions
 
-[Chapter 1 - The Role of Algorithms in Computing](chapter-01/toc-ch-01.md)
+[Chapter 1 - The Role of Algorithms in Computing](chapter-01/clrs-toc-ch-01.md)
