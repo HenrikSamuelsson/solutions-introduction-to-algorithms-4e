@@ -4,3 +4,4 @@
 
 [1.1-1 Real World Algorithms](clrs-exercise-01-01-01.md)  
 [1.1-2 Measures of Efficiency](clrs-exercise-01-01-02.md)  
+[1.1-3](clrs-exercise-01-01-03.md)  
